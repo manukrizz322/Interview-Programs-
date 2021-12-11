@@ -19,10 +19,13 @@ public class Repeated_12345 {
 			if (m.containsKey(a)) {
 				Integer i = m.get(a);
 				m.put(a, i+1);
-				
+				System.out.println(m);
+				System.out.println("*************************");
 			}
 			else {
 				m.put(a, 1);
+				System.out.println(m);
+				System.out.println("*************************");
 			}
 			
 		}System.out.println(m);
